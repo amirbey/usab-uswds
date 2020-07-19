@@ -3,9 +3,9 @@ title: "Chapter 1: Using the ADA Standards"
 order-number: 1
 file: using-ADAstandards.pdf
 file-description: PDF version of Chapter 1 ADA Guide
-collection-title: "Guide to the ADA Accessibility Standards"
-collection-folder: ada-guides
-collection-sub-folder: guides
+collection-title: "Guide to the ADA Standards"
+collection-folder: ada
+collection-sub-folder: chapter-01
 layout: standards
 file-directory: /files/ada-aba/guides/ada/
 image-directory: /images/ada-aba/guides/

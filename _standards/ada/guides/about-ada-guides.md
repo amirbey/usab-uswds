@@ -2,6 +2,7 @@
 title: "About the ADA Guides"
 order-number: 0
 permalink: /ada/guides/
+level: 2
 file: test.pdf
 file-description: Single file PDF version of the ADA Guides
 ---

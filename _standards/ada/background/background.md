@@ -3,10 +3,9 @@ title:  "Background"
 permalink: /ada/background/
 order-number: 0
 version: original
-collection-title: "ADA - Background, History and Archive"
-collection-folder: ada-background
-layout: data-sidenav
-datafile: ada-background
+collection-title: "Background, History and Archive"
+collection-folder: ada
+layout: standards
 file-directory: /files/ada-aba/background/
 image-directory: /images/ada-aba/background/
 ---

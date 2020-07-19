@@ -1,0 +1,14 @@
+{% assign cf = site.standards |  where: "collection-folder", page.collection-folder | group_by: 'category' %}
+{% for group in cf %}
+
+<h2>{{ group.title }}</h2>
+{% assign section = site.standards %}
+{% for cat in section %}
+<h2>{{ cat.title }}</h2>
+    <ul>
+      {% assign sub = cat.items | sort: 'order' %}
+      {% for item in items %}
+        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+{% endfor %}

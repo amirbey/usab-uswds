@@ -13,25 +13,64 @@
           Table of Contents
         </button>
         <ul id="subnav-list" class="usa-accordion__content usa-sidenav__sublist">
-          {% for chapter in group %}
-          <li class="usa-sidenav__item">
-            {% if page.title == chapter.title %}
-            <button class="subnav-anchor usa-current usa-accordion__button"
-              aria-expanded="true"
-              aria-controls="subsections"
-            >
-              {{ chapter.title }}
-            </button>
-              <ul id="subsections" class="usa-accordion__content usa-sidenav__sublist" aria-label="Page sections navigation">
-              </ul>
+          {% for section in group %}
+            {% assign level-1 = site.standards | where: "level", "1" | sort:"order-number" %}
+            {% if level-1 %}
+         
+            <li class="usa-sidenav__item">
+              {% if page.title == section.title %}
+              <button class="subnav-anchor usa-current usa-accordion__button"
+                aria-expanded="true"
+                aria-controls="subsections"
+              >
+                {{ section.title }}
+              </button>
+                <ul id="subsections" class="usa-accordion__content usa-sidenav__sublist" aria-label="Page sections navigation">
+                </ul>
+              {% else %}
+              <a
+                class="subnav-anchor"
+                href="{{site.baseurl}}{{ section.url }}"
+              >
+                {{ section.title }}
+              </a>
+              {% endif %}
+
             {% else %}
-            <a
-              class="subnav-anchor"
-              href="{{site.baseurl}}{{ chapter.url }}"
-            >
-              {{ chapter.title }}
-            </a>
+            {% assign level-2 = site.standards | where: "level", "2" | sort:"order-number" %}
+            {% if level-2 %}
+            <button class="subnav-anchor usa-current usa-accordion__button"
+            aria-expanded="true"
+            aria-controls="subsections"
+          >
+            { section.title } to add
+          </button>
+            <ul id="subsections" class="usa-accordion__content usa-sidenav__sublist" aria-label="Page sections navigation">
+            </ul>
+                <li class="usa-sidenav__item">
+                  {% if page.title == section.title %}
+                  <button class="subnav-anchor usa-current usa-accordion__button"
+                    aria-expanded="true"
+                    aria-controls="subsections"
+                  >
+                    {{ section.title }}
+                  </button>
+                    <ul id="subsections" class="usa-accordion__content usa-sidenav__sublist" aria-label="Page sections navigation">
+                    </ul>
+                  {% else %}
+                  <a
+                    class="subnav-anchor"
+                    href="{{site.baseurl}}{{ section.url }}"
+                  >
+                    {{ section.title }}
+                  </a>
+                  {% endif %}
+
+
+
             {% endif %}
+
+          {% endif %}
           </li>
           {% endfor %}
         </ul>

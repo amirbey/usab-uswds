@@ -5,6 +5,7 @@ order-number: 1
 version: original
 file: ADA-Standards.pdf
 file-description: Single file PDF version of the ADA Standards
+level: 1
 layout: standards
 collection-title: "Americans with Disabilities Act Accessibility Standards"
 collection-folder: ada

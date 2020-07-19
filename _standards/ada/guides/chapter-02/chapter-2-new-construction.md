@@ -3,6 +3,13 @@ title: "Chapter 2: New Construction"
 order-number: 2
 file: new-construction.pdf
 file-description: PDF version of Chapter 2 New Construction Guide
+collection-title: "Guide to the ADA Standards"
+collection-folder: ada
+collection-sub-folder: chapter-02
+layout: standards
+file-directory: /files/ada-aba/guides/ada/
+image-directory: /images/ada-aba/guides/
+right-sidenav: ada-right-sidenav.html
 ---
 This guide provides an introduction to the scoping
 requirements that form the basis for the Department of Justice's [2010

@@ -1,0 +1,19 @@
+{% assign this-collection = site.standards | where: "collection-folder", page.collection-folder | group_by: 'collection-title' %}
+{% for group in this-collection %}
+<h2>{{ group.name | capitalize }}</h2>
+    <ul>
+      {% assign items = group.items | sort: 'order-number' %}
+      {% for item in items %}
+        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+
+
+        {% if item.collection-sub-folder %}
+        {% assign sub-collection = site.standards | group_by: 'collection-sub-folder' %}
+        {% for section in sub-collection %}
+        <h3>{{ section.name | capitalize }}</h3>
+        {% endfor %}
+        {% endif %}
+
+      {% endfor %}
+    </ul>
+{% endfor %}
