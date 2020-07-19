@@ -5,6 +5,12 @@ order-number: 1
 version: original
 file: ADA-Standards.pdf
 file-description: Single file PDF version of the ADA Standards
+layout: standards
+collection-title: "Americans with Disabilities Act Accessibility Standards"
+collection-folder: ada
+file-directory: /files/ada-aba/
+image-directory: /images/ada-aba/standards/
+right-sidenav: ada-right-sidenav.html
 ---
 
 Among other things, the Americans with Disabilities Act (ADA) ensures access to the built environment for people with disabilities.  The ADA Standards establish design requirements for the construction and alteration of facilities subject to the law.  These enforceable standards apply to places of public accommodation, commercial facilities, and state and local government facilities.

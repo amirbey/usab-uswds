@@ -2,6 +2,11 @@
 title: About ADAAG for Transportation Vehicles
 permalink: /ada/vehicles/
 order-number: 0
+collection-title: "ADA Accessibility Guidelines for Vehicles"
+collection-folder: ada-vehicles
+layout: standards
+file-directory: /files/vehicles/
+image-directory: /images/vehicles/ 
 ---
 
 Under the ADA, the Department of Transportation (DOT) issues and enforces accessibility standards for transportation vehicles that are based on the Board's [ADA Accessibility Guidelines (ADAAG) for Transportation Vehicles](https://www.access-board.gov/guidelines-and-standards/transportation/vehicles/adaag-for-transportation-vehicles).  These requirements apply to new or remanufactured vehicles covered by the ADA, including:

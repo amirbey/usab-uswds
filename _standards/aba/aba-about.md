@@ -3,6 +3,12 @@ title: "About the ABA"
 permalink: /aba/
 order-number: 1
 version: original
+collection-title: "Architectural Barriers Act Accessibility Standards"
+collection-folder: aba
+layout: standards
+file-directory: /files/ada-aba/
+image-directory: /images/ada-aba/standards/
+right-sidenav: aba-right-sidenav.html
 ---
 
 Standards issued under the Architectural Barriers Act (ABA) apply to facilities designed, built, altered, or leased with certain federal funds. Passed in 1968, the ABA is one of the first laws to address access to the built environment.  The law applies to federal buildings, including post offices, social security offices, federal courthouses and prisons, and national parks.  It also covers non-federal facilities, such as public housing units and mass transit systems, built or altered with federal grants or loans.  Coverage is limited to those funding programs that give the federal agency awarding grants or loans the authority to establish facility standards. 

@@ -2,6 +2,11 @@
 title: Update guidelines for Buses and Vans
 permalink: /ada/vehicles/update/buses-and-vans/
 order-number: 2
+collection-title: "ADA Accessibility Guidelines for Vehicles - Updated"
+collection-folder: ada-vehicles-update-buses-and-vans
+layout: standards
+file-directory: /files/vehicles/
+image-directory: /images/vehicles/ 
 ---
 
 <!-- *This section contains the updated accessibility guidelines for buses and vans that were finalized by the Access Board in 2016, but are not currently enforceable DOT standards* -->

@@ -3,6 +3,12 @@ title:  "Background"
 permalink: /ada/background/
 order-number: 0
 version: original
+collection-title: "ADA - Background, History and Archive"
+collection-folder: ada-background
+layout: data-sidenav
+datafile: ada-background
+file-directory: /files/ada-aba/background/
+image-directory: /images/ada-aba/background/
 ---
 The current ADA standards are based on the updated ADA Accessibility
 Guidelines (2004), which the Board issued jointly with the ABA
