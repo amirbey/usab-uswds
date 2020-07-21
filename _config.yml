@@ -160,9 +160,15 @@ collections:
   ada-vehicles-update-rail-cars:
     output: true
     permalink: /ada/vehicles/update/rail-cars/:path/
+  ada-vehicles:
+    output: true
+    permalink: /ada/vehicles/guides/:path/
   mde:
     output: true
     permalink: /mde/:path/
+  pvag:
+    output: true
+    permalink: /pvag/:path/
 
 
 permalink: pretty
@@ -244,7 +250,8 @@ defaults:
       collection-folder: ada-vehicles
       layout: standards
       file-directory: /files/vehicles/
-      image-directory: /images/vehicles/ 
+      image-directory: /images/vehicles/
+      right-sidenav: vehicles-right-sidenav.html
   - scope:
       path: ""
       type: "ada-vehicles-update-buses-and-vans"
@@ -253,7 +260,8 @@ defaults:
       collection-folder: ada-vehicles-update-buses-and-vans
       layout: standards
       file-directory: /files/vehicles/
-      image-directory: /images/vehicles/ 
+      image-directory: /images/vehicles/
+      right-sidenav: vehicles-right-sidenav.html
   - scope:
       path: ""
       type: "ada-vehicles-update-rail-cars"
@@ -262,7 +270,18 @@ defaults:
       collection-folder: ada-vehicles-update-rail-cars
       layout: standards
       file-directory: /files/vehicles/
-      image-directory: /images/vehicles/ 
+      image-directory: /images/vehicles/
+      right-sidenav: vehicles-right-sidenav.html
+  - scope:
+      path: ""
+      type: "ada-vehicles-guides"
+    values:
+      collection-title: "Guide to ADAAG for Vehicles"
+      collection-folder: ada-vehicles-guides
+      layout: standards
+      file-directory: /files/vehicles/guides/
+      image-directory: /images/vehicles/guides/
+      right-sidenav: vehicles-right-sidenav.html
   - scope:
       path: ""
       type: "mde"
@@ -271,7 +290,8 @@ defaults:
       collection-folder: mde
       layout: standards
       file-directory: /files/mde/
-      image-directory: /images/mde/ 
+      image-directory: /images/mde/
+
 
 
 markdown: kramdown
