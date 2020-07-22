@@ -160,7 +160,7 @@ collections:
   ada-vehicles-update-rail-cars:
     output: true
     permalink: /ada/vehicles/update/rail-cars/:path/
-  ada-vehicles:
+  ada-vehicles-guides:
     output: true
     permalink: /ada/vehicles/guides/:path/
   mde:
