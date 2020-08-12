@@ -194,7 +194,7 @@ defaults:
       collection-folder: ada-guides
       layout: standards
       file-directory: /files/ada-aba/guides/ada/
-      image-directory: /images/ada-aba/guides/
+      image-directory: ada-aba/guides/
       right-sidenav: ada-right-sidenav.html
   - scope:
       path: ""
@@ -365,3 +365,4 @@ assets:
     - node_modules/uswds/dist/scss
     - node_modules/netlify-cms/dist
     - node_modules/stickyfilljs/dist
+    - images

@@ -17,8 +17,8 @@ private sectors are covered by the ADA.
 
 #### State and Local Government Facilities
 
-![government
-building]({{ site.baseurl }}{{ page.image-directory }}chapter1-ada/gov.jpg){: .float-right .thumbnail}
+{% asset '{{ page.image-directory }}chapter1-ada/gov.jpg' alt="government
+building" width="150" %}{: .float-right .thumbnail}
 
 Units of government at the state, county, and local levels are subject
 to the ADA and must comply with the ADA Standards in new construction
@@ -137,7 +137,7 @@ img-alt= "store front and factory"
 text-title= "Title III Regulation for Places of Public Accommodation and Commercial Facilities"
 text= "28 CFR Part 36<br>Available at <a href=\"https://www.ada.gov\">www.ada.gov</a>"
 %}
-</div>  
+</div>
 
 ### DOT's ADA Regulations
 
@@ -465,7 +465,7 @@ specified as a range.
 
 #### Grab Bar Diameter and Clearance
 
-  ![Grab bar diameter 1 1/4\" - 2\" (tolerance not allowed) and knuckle clearance 1 1/2\" absolute (tolerance allowed)]({{ site.baseurl }}{{ page.image-directory }}chapter1-ada/1gbar.jpg){: .img-large}  
+  ![Grab bar diameter 1 1/4\" - 2\" (tolerance not allowed) and knuckle clearance 1 1/2\" absolute (tolerance allowed)]({{ site.baseurl }}{{ page.image-directory }}chapter1-ada/1gbar.jpg){: .img-large}
   <div class="img-large-caption">
   Construction or manufacturing tolerances are permitted for the required clearance at grab bars since this is an absolute dimension (1½ inch), but they are not permitted for the grab bar diameter because a range is specified (1¼" to 2").</div>
 
